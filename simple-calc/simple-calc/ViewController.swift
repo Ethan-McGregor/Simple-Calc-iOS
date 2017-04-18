@@ -36,10 +36,13 @@ class ViewController: UIViewController {
     var temp: String = ""
     
     
+    
     func factorial(n: Int) -> Int{
-        if n==1{return 1}
+        if n==1{
+            
+            return 1
+        }
         return n*factorial(n:(n-1))
-        
     }
     
     
@@ -47,8 +50,10 @@ class ViewController: UIViewController {
         inputs = [String]()
         operation = ""
         display.text = ""
+        displayOn.text = "off"
         toggle = false
         temp = ""
+        
     }
     
     
@@ -66,8 +71,6 @@ class ViewController: UIViewController {
             }
             return String(sum/Double(inputs.count))
         }
-        
-        
         
         if operation == "fact" && inputs.count == 1{
             return String(factorial(n:Int(inputs[0])!))
@@ -142,7 +145,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func pressed_add(_ sender: AnyObject) {
+    @IBAction func add(_ sender: AnyObject) {
         if temp==""{
             temp = "+"
             display.text = temp
@@ -169,7 +172,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_avg(_ sender: AnyObject) {
+    @IBAction func avg(_ sender: AnyObject) {
         inputs.append(temp)
         temp = ""
         if toggle == true{
@@ -186,7 +189,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_mod(_ sender: AnyObject) {
+    @IBAction func mod(_ sender: AnyObject) {
         
         inputs.append(temp)
         temp = ""
@@ -203,7 +206,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_equals(_ sender: AnyObject) {
+    @IBAction func equals(_ sender: AnyObject) {
         
         if toggle == false{
             
@@ -230,7 +233,7 @@ class ViewController: UIViewController {
     }
     
 
-    @IBAction func pressed_count(_ sender: AnyObject) {
+    @IBAction func count(_ sender: AnyObject) {
         
         inputs.append(temp)
         temp = ""
@@ -246,7 +249,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func pressed_sub(_ sender: AnyObject) {
+    @IBAction func subtract(_ sender: AnyObject) {
         
         if temp=="" {
             temp = "-"
@@ -277,7 +280,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_enter(_ sender: AnyObject) {
+    @IBAction func enter(_ sender: AnyObject) {
         
         if toggle == true{
             inputs.append(temp)
@@ -289,7 +292,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_mul(_ sender: AnyObject) {
+    @IBAction func mult(_ sender: AnyObject) {
         inputs.append(temp)
         temp = ""
         
@@ -305,7 +308,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_toggle(_ sender: AnyObject) {
+    @IBAction func toggle(_ sender: AnyObject) {
         if(toggle == true){
             displayOn.text = "off"
             toggle = false
@@ -317,7 +320,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func pressed_dot(_ sender: AnyObject) {
+    @IBAction func dot(_ sender: AnyObject) {
         
         if temp==""{
             temp = String("0.")
@@ -329,7 +332,7 @@ class ViewController: UIViewController {
 
     }
     
-    @IBAction func pressed_div(_ sender: AnyObject) {
+    @IBAction func div(_ sender: AnyObject) {
 
         inputs.append(temp)
         temp = ""
@@ -348,13 +351,11 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_fact(_ sender: AnyObject) {
+    @IBAction func fact(_ sender: AnyObject) {
         inputs.append(temp)
         temp = ""
         if toggle == true{
-
             display.text = functions(inputs: inputs, operation: "fact")
-
         }
         else{
             operation = "fact"
@@ -367,21 +368,21 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_0(_ sender: AnyObject) {
+    @IBAction func zero(_ sender: AnyObject) {
         
         temp += String(0)
         display.text = temp
         
     }
     
-    @IBAction func pressed_1(_ sender: AnyObject) {
+    @IBAction func one(_ sender: AnyObject) {
         
         temp += String(1)
         display.text = temp
         
     }
     
-    @IBAction func pressed_2(_ sender: AnyObject) {
+    @IBAction func two(_ sender: AnyObject) {
         
         temp += String(2)
         display.text = temp
@@ -390,57 +391,49 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func pressed_3(_ sender: AnyObject) {
+    @IBAction func three(_ sender: AnyObject) {
         
         temp += String(3)
         display.text = temp
         
     }
     
-    
-    
-    @IBAction func pressed_4(_ sender: AnyObject) {
+    @IBAction func four(_ sender: AnyObject) {
         
         temp += String(4)
         display.text = temp
         
     }
 
-    
-    @IBAction func pressed_5(_ sender: AnyObject) {
+    @IBAction func five(_ sender: AnyObject) {
         
         temp += String(5)
         display.text = temp
         
     }
-    @IBAction func pressed_6(_ sender: AnyObject) {
+    @IBAction func six(_ sender: AnyObject) {
         
         temp += String(6)
         display.text = temp
         
     }
-    @IBAction func pressed_7(_ sender: AnyObject) {
+    @IBAction func seven(_ sender: AnyObject) {
         
         temp += String(7)
-        
         display.text = temp
         
     }
-    
 
-    @IBAction func pressed_8(_ sender: AnyObject) {
-        
+    @IBAction func eight(_ sender: AnyObject) {
         
         temp += String(8)
-        
         display.text = temp
         
     }
     
-    @IBAction func pressed_9(_ sender: AnyObject) {
+    @IBAction func nine(_ sender: AnyObject) {
         
         temp += String(9)
-        
         display.text = temp
         
     } 

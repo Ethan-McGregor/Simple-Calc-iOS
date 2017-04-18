@@ -29,7 +29,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_1:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="5zM-9e-sNI"/>
+                                    <action selector="one:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="zx1-Zh-F2d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gll-D0-Itv" userLabel="two">
@@ -40,7 +40,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_2:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Vgj-ic-TXA"/>
+                                    <action selector="two:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="IqT-Ds-EdX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7C-KG-wLa" userLabel="three">
@@ -55,7 +55,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="pressed_3:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="4F1-IL-nvh"/>
+                                    <action selector="three:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="buc-3d-vSb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlg-oj-8FR" userLabel="four">
@@ -66,7 +66,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_4:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="a81-88-mk0"/>
+                                    <action selector="four:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="8qw-bK-Uda"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a12-iS-fia" userLabel="five">
@@ -77,7 +77,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_5:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="nUZ-pQ-CjF"/>
+                                    <action selector="five:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="qWW-2q-Yo4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pb4-tf-dO9" userLabel="six">
@@ -88,7 +88,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_6:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="QZ4-Fr-59K"/>
+                                    <action selector="six:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Jc1-sn-nxV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzn-60-IKZ" userLabel="seven">
@@ -99,7 +99,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_7:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="CII-vG-vp1"/>
+                                    <action selector="seven:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="CcS-HY-MQJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwC-BS-tRD" userLabel="eight">
@@ -110,7 +110,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_8:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Moh-BY-T6C"/>
+                                    <action selector="eight:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="1yA-JF-tWx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lje-91-JOh" userLabel="nine">
@@ -121,7 +121,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_9:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="UvC-ML-Umt"/>
+                                    <action selector="nine:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yJb-eK-7xa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXm-NV-3Mm">
@@ -129,7 +129,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Count"/>
                                 <connections>
-                                    <action selector="pressed_count:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="xH3-1q-sEe"/>
+                                    <action selector="count:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="c42-59-WzQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paW-Jy-80k">
@@ -137,7 +137,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Avg"/>
                                 <connections>
-                                    <action selector="pressed_avg:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="zAa-QQ-0Nr"/>
+                                    <action selector="avg:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yul-Zv-xHO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-NH-TSR" userLabel="zero">
@@ -148,7 +148,7 @@
                                     <color key="titleColor" red="0.97287553584818043" green="1" blue="0.98318440873905388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_0:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Dsx-W0-x6F"/>
+                                    <action selector="zero:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="6HB-ch-9Fo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vre-bL-K2d">
@@ -159,7 +159,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_equals:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="dhr-sD-BW0"/>
+                                    <action selector="equals:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Q9A-lS-gUM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SwA-rY-IHt">
@@ -167,7 +167,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fact"/>
                                 <connections>
-                                    <action selector="pressed_fact:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="agD-79-WNL"/>
+                                    <action selector="fact:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Qx7-vH-cDH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqS-Vm-9i8">
@@ -178,7 +178,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_add:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="r3U-Wa-Ri8"/>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="6Wp-Re-giT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YH1-wI-dwc">
@@ -189,7 +189,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_sub:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="3hw-9S-vKj"/>
+                                    <action selector="subtract:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gOv-0c-nGL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tg-h6-4qi">
@@ -200,7 +200,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_mul:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="a00-ai-XUG"/>
+                                    <action selector="mult:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ffS-uP-afo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogJ-Yx-e3c">
@@ -211,7 +211,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_div:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="pzL-Nc-GNk"/>
+                                    <action selector="div:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="4dm-bn-9HJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZM9-4j-sin">
@@ -233,7 +233,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_dot:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="EdN-3p-DOm"/>
+                                    <action selector="dot:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="2oR-om-Ile"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0tE-FL-16Z">
@@ -251,7 +251,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_toggle:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ULy-kI-cMy"/>
+                                    <action selector="toggle:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Ij3-fb-q5n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDQ-9X-2Ey">
@@ -262,7 +262,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_enter:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="qcW-4U-zi8"/>
+                                    <action selector="enter:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="xSu-0m-QyX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doO-uC-foM" userLabel="mod">
@@ -273,7 +273,7 @@
                                     <color key="titleColor" red="0.97287553579999997" green="1" blue="0.98318440870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="pressed_mod:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="JqG-yC-XZr"/>
+                                    <action selector="mod:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Cd0-bN-Hav"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEP-LB-18w">
